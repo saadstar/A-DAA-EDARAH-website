@@ -1,0 +1,22 @@
+{
+  "HOME" : {
+    "Path" :"/",
+    "Text" : "Home"
+  },
+  "ABOUT" : {
+    "Path" :"/about",
+    "Text" : "AboutUs"
+  },
+  "SERVICES" : {
+    "Path" :"/services",
+    "Text" : "Services"
+  },
+  "FAQ" : {
+    "Path" : "/faq",
+    "Text" : "FAQ"
+  },
+  "CONTACT" : {
+    "Path" :"/Contact",
+    "Text" : "ContactUs"
+  }
+}

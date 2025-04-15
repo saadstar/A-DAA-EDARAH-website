@@ -1,0 +1,180 @@
+{
+  "Setting" : {
+    "companyName" : "ADAA EDARAH REAL ESTATE VALUATION",
+    "email" : "info@edarah.sa",
+    "phone" : "00966566633391",
+    "address" : "6391 Elgin St. Celina, 10299",
+    "workingHours" : "Saturday - Thursday: 9 am - 10 pm"
+  },
+  "AboutSection" :  {
+    "title": "About Us",
+    "subtitle": "We provide solutions that enhance our presence in the Kingdom",
+    "achievement" : "Years Of Success",
+    "content": "To ensure the highest levels of customer satisfaction, and continuous development to meet the needs of our Clients.",
+    "listItems": [
+      "We provide fast, reliable and professional RealEstate Valuation services.",
+      "We guarantee safety and customer satisfaction throughout the Kingdom.",
+      "We are committed to excellence and integrity.",
+      "We aim to be the first partner for clients in times of need."
+    ],
+    "learnMore": "Learn More"
+  },
+  "Services" : {
+    "title" : "Services",
+    "subtitle" : "We always strive to provide our services professionally",
+    "servicesData" : [
+      {
+        "id": 1,
+        "icon": "Service6",
+        "title": "Residential Property Valuation",
+        "description":"Accurate market value assessments for homes and apartments."
+      },
+      {
+        "id": 2,
+        "icon": "Service8",
+        "title": "Commercial Real Estate Appraisal",
+        "description": "Comprehensive valuation services for retail, office, and industrial properties."
+      },
+      {
+        "id": 3,
+        "icon": "Service3",
+        "title":"Land & Development Valuation",
+        "description": "Specialized assessment of vacant land and development projects."
+      },
+      {
+        "id": 4,
+        "icon": "Service2",
+        "title":"Bank-Appraised Reports",
+        "description":"Certified valuation reports meeting all financial institution requirements."
+      },
+      {
+        "id": 5,
+        "icon": "Service5",
+        "title": "Government Property Assessment",
+        "description": "Official property valuations compliant with regulatory standards."
+      },
+      {
+        "id": 6,
+        "icon": "Service4",
+        "title": "Real Estate Consulting",
+        "description": "Strategic advice to maximize your property's value and potential."  
+      }
+    ]
+  },
+  "AppointmentSection": {
+    "title": "Talk To Us",
+    "subtitle": "Don't let road troubles derail your journey",
+    "content": "We are pleased to provide support through our 24-hour customer service through the unified number 920005587 to answer all customer questions and inquiries.",
+    "contactTitle": "CALL US ANYTIME",
+    "phoneNumber": "+889 3404 236",
+    "appointmentFormTitle": "Contact Us",
+    "formFirstName": "First Name",
+    "formLastName": "Last Name",
+    "formEmail": "E-mail Address",
+    "formPhoneNumber": "Phone Number",
+    "formMessage": "Write Message",
+    "formSubmit": "Appointment Now"
+  },
+  "BackToTopStart" :  {},
+  "BreadcrumbArea": {
+    "home": "Home"
+  },
+  "ContactSection": {
+    "title": "Contact Us",
+    "subtitle": "Get In Touch",
+    "formName": "Your Name",
+    "formEmail": "Your E-mail",
+    "formPhoneNumber": "Phone Number",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "submitButtonText": "Submit Now",
+    "contactInfoTitle": "Contact Info",
+    "contactInfoDescription" : "We are pleased to provide support through our 24-hour customer service through the unified number 920005587 to answer all customer questions and inquiries.",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email",
+    "locationTitle": "Location"
+  },
+  "CtaSection": {
+    "title": "Wherever you go,<1/> our assistance ensures you never travel alone",
+    "buttonText": "Let's Talk"
+  },
+  "FaqSection": {
+    "title": "Ask Question",
+    "subtitle": "We aspire to meet your needs",
+    "faqs":[
+      {
+        "question": "Where can I benefit from Idarah's services?",
+        "answer": "Available in all cities across the Kingdom of Saudi Arabia."
+      },
+      {
+        "question": "How can I benefit from Idarah's services?",
+        "answer": "You can access our services through the contact numbers listed on Idarah's official website, then register and request your service."
+      },
+      {
+        "question": "How do you guarantee the accuracy of your real estate valuations?",
+        "answer": "We ensure accuracy through:\n- Certified expert team (holding international certifications like RICS or IVSC)\n- Advanced analysis tools (specialized software, real-time market data)\n- Dual review process for every report before delivery\n- Full compliance with international standards (IFRS, local regulations)"
+      },
+      {
+        "question": "What standards do you follow for property valuations?",
+        "answer": "We apply a scientific methodology that includes:\n- Analysis of local market trends and recent transactions\n- Property condition, location, and amenities\n- Approved valuation standards (income approach, cost approach, market comparison)\n- Compliance with official regulations (banks, municipalities)\nTo ensure accurate and reliable results."
+      },
+      {
+        "question": "How is service pricing calculated?",
+        "answer": "Service fees are calculated based on:\n- Service type\n- Working days required\n- Other relevant factors"
+      },
+      {
+        "question": "Can I track my request status during the valuation process?",
+        "answer": "Yes, you can track your request status through our mobile application."
+      }
+    ]
+  },
+  "FaqServiceSection" : {},
+  "FaqV2" :  {},
+  "FeatureSection": {
+    "title": "Core Feature",
+    "subtitle": "The ideal choice for Real Estate Valuation services in the Kingdom",
+    "description": "Discover the advantages of the RealEstate valuation services we provide in the Kingdom of Saudi Arabia. We are here to provide fast and reliable solutions to ensure the safety of your trip and your comfort at all times.",
+    "features": [
+      "Providing support 24 hours a day, 7 days a week.",
+      "A team trained to the highest levels of efficiency and professionalism.",
+      "Rapid response to provide assistance wherever you are."
+    ]
+  },
+  "FeatureSlider": {
+    "items": [
+      { "name": "TransportFusion", "image": "star-primary.png" },
+      { "name": "SpeedyShuttle", "image": "star-primary.png" },
+      { "name": "DriveLogistics", "image": "star-primary.png" },
+      { "name": "SpeedyShuttle", "image": "star-primary.png" }
+    ]
+  },
+  "FooterArea": {
+    "address": "Address",
+    "services": "Services",
+    "link": "Link",
+    "newsletter": "Our Newsletter",
+    "newsletterPlaceholder": "Your E-mail",
+    "subscribe": "Subscribe",
+    "rightsReserved": "© Edarah  | All Rights Reserved",
+    "Designed": "Designed By EMAK Tech Solutions",
+    "contactUs": "Contact Us"
+  },
+  "HeaderArea": {
+    "needHelp": "Need help?"
+  },
+  "HeaderTopArea": {},
+  "HeroArea": {
+    "title": "Innovation at Work",
+    "subtitle": "Edarah Real Estate Valuation Company – at your service wherever you are",
+    "description": "One of the foremost leading companies in providing certified real estate appraisal services, equipped with a large, fully-prepared fleet dedicated to serving our clients."
+  },
+  "ListAnchor" : {
+    "Home" : "Home",
+    "AboutUs" : "About Us",
+    "Services" :  "Services",
+    "FAQ" : "FAQ",
+    "ContactUs" :  "Contact Us"
+  },
+  "learnMore" : "Learn More"
+
+}
