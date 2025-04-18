@@ -6,7 +6,7 @@ const HeaderTopArea = () => {
     const { t } = useTranslation();
     const location = useLocation();
     return (
-        <div className={`header-top-area ${location.pathname != '/' ? 'theme-bg' : 'secondary-bg'}`}>
+        <div className={`header-top-area ${location.pathname === '/' ? 'theme-bg' : 'secondary-bg'}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-8 col-lg-8">

@@ -18,5 +18,9 @@
   "CONTACT" : {
     "Path" :"/Contact",
     "Text" : "ContactUs"
+  },
+  "REQUEST" : {
+    "Path" :"/request",
+    "Text" : "ApplyRequest"
   }
 }

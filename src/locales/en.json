@@ -64,9 +64,9 @@
   "AppointmentSection": {
     "title": "Talk To Us",
     "subtitle": "Don't let road troubles derail your journey",
-    "content": "We are pleased to provide support through our 24-hour customer service through the unified number 920005587 to answer all customer questions and inquiries.",
+    "content": "We are pleased to provide support through our 24-hour customer service through the unified number 00966566633391 to answer all customer questions and inquiries.",
     "contactTitle": "CALL US ANYTIME",
-    "phoneNumber": "+889 3404 236",
+    "phoneNumber": "00966566633391",
     "appointmentFormTitle": "Contact Us",
     "formFirstName": "First Name",
     "formLastName": "Last Name",
@@ -124,7 +124,7 @@
       },
       {
         "question": "Can I track my request status during the valuation process?",
-        "answer": "Yes, you can track your request status through our mobile application."
+        "answer": "Of course, on the Adaa Management Platform, you can easily track the status of your request throughout all stages of evaluation.We provide a comprehensive tracking dashboard that enables you to view the status of your request in real-time, with automatic updates as it moves from one stage to another."
       }
     ]
   },
@@ -173,7 +173,8 @@
     "AboutUs" : "About Us",
     "Services" :  "Services",
     "FAQ" : "FAQ",
-    "ContactUs" :  "Contact Us"
+    "ContactUs" :  "Contact Us",
+    "ApplyRequest" :  "APPLY"
   },
   "learnMore" : "Learn More"
 

@@ -1,22 +1,50 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useInView } from 'react-intersection-observer';
 import AppointmentBg from '../assets/img/appointment-bg.png';
+import { motion } from 'framer-motion';
 
 const AppointmentSection = () => {
     const { t } = useTranslation();
 
+    const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+    const [formRef, formInView] = useInView({ triggerOnce: true, threshold: 0.2 });
+
     return (
-        <div className="appointment-section pb-180">
+        <div className="appointment-section pb-180" ref={ref}>
             <div className="container">
-                <div className="appointment-inner" data-background={AppointmentBg} >
+                <motion.div
+                    className="appointment-inner"
+                    data-background={AppointmentBg}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: inView ? 1 : 0 }}
+                    transition={{ duration: 1 }}
+                >
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
-                            <div className="section-title">
-                                <h6 className="text-white wow fadeInUp animated" data-wow-delay="200ms">{t('AppointmentSection.title')}</h6>
-                                <h2 className="text-white wow fadeInDown animated" data-wow-delay="400ms">{t('AppointmentSection.subtitle')}</h2>
-                            </div>
-                            <p className="text-white wow fadeInUp animated" data-wow-delay="200ms">{t('AppointmentSection.content')}</p>
-                            <div className="contact-wrap">
+                            <motion.div
+                                className="section-title"
+                                initial={{ opacity: 0, y: -50 }}
+                                animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -50 }}
+                                transition={{ duration: 0.8, delay: 0.2 }}
+                            >
+                                <h6 className="text-white">{t('AppointmentSection.title')}</h6>
+                                <h2 className="text-white">{t('AppointmentSection.subtitle')}</h2>
+                            </motion.div>
+                            <motion.p
+                                className="text-white"
+                                initial={{ opacity: 0, y: -30 }}
+                                animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -30 }}
+                                transition={{ duration: 0.8, delay: 0.4 }}
+                            >
+                                {t('AppointmentSection.content')}
+                            </motion.p>
+                            <motion.div
+                                className="contact-wrap"
+                                initial={{ opacity: 0, x: -50 }}
+                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+                                transition={{ duration: 0.8, delay: 0.6 }}
+                            >
                                 <div className="icon">
                                     <i className="fa-solid fa-phone"></i>
                                 </div>
@@ -24,10 +52,16 @@ const AppointmentSection = () => {
                                     <h6>{t('AppointmentSection.contactTitle')}</h6>
                                     <p>{t('AppointmentSection.phoneNumber')}</p>
                                 </div>
-                            </div>
+                            </motion.div>
                         </div>
-                        <div className="col-xl-7 col-lg-7 wow fadeInDown animated" data-wow-delay="400ms">
-                            <div className="apppointment-form-wrap white-bg">
+
+                        <div className="col-xl-7 col-lg-7" ref={formRef}>
+                            <motion.div
+                                className="apppointment-form-wrap white-bg"
+                                initial={{ opacity: 0, x: 50 }}
+                                animate={{ opacity: formInView ? 1 : 0, x: formInView ? 0 : 50 }}
+                                transition={{ duration: 0.8, delay: 0.8 }}
+                            >
                                 <h2>{t('AppointmentSection.appointmentFormTitle')}</h2>
                                 <form>
                                     <div className="row">
@@ -51,13 +85,13 @@ const AppointmentSection = () => {
                                         </div>
                                     </div>
                                 </form>
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     );
-}
+};
 
 export default AppointmentSection;
